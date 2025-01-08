@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+id = "animateanything"
+name = "Animate-Anything"
+version = "1.0.9"
+tagline = "Animate Anything add-on for 3D software"
+maintainer = "Anything World <plugins@anything.world>"
+type = "add-on"
+tags = ["Import-Export", "Mesh", "Material", "Animation"]
+blender_version_min = "4.2.0"
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+website = "https://app.anything.world/profile"
+copyright = [
+	"2023-2024 Anything World",
+]
+[permissions]
+files = "Import built-in and custom assets"
+network = "API calls to Replicate for AI model processing"
